@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao{
+    width: 460px;
+    height: 130px;
+    font-size: 35px;
+    cursor: pointer;
+    margin: 2px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.botao:hover{
+    background-color: rgb(68, 68, 68);
+}
+
+#resultado{
+    height: 30px;
+    margin: 5px;
+    font-size: 45px;
+    color: white;
+    text-align: right;
+    padding: 50px;
+}
+#zero{
+    width: 930px;
+}
+#calcular{
+    margin-top: 139px;
+    height: 128px;
+}
+#xx{
+    position: absolute;
+    margin-top: 344px;
+    margin-left: -464px;
+}
+@media (max-width: 703px) {
+ 
+    
+    .calculadora{
+       
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.8);
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 15px;
+        padding: 15px;
+    }
+    
+    .botao{
+        border-radius: 100px;
+        width: 90px;
+        height: 99px;
+        margin: 2px;
+        font-size: 30px;
+        cursor: pointer;
+        background-color: rgb(31, 31, 31);
+        border: none;
+        color: white;
+    }
+    #x{
+        background-color: #ff8c2e;
+    }
+    #xx{
+        background-color: #ff8c2e;
+        position: absolute;
+        margin-top: 274px;
+        margin-left: -104px;
+    }
+    h2{
+        display: none;
+    }
+    #c{
+        background-color: #737373;
+        color: black;
+    }
+    #resultado{
+        height: 30px;
+        margin: 5px;
+        font-size: 45px;
+        color: white;
+        text-align: right;
+        padding: 25px;
+    }
+    #zero{
+        width: 160px;
+    }
+    #calcular{
+        height: 100px;
+        background-color: #ff8c2e;
+        margin: 10px;
+        margin-top: 130px;
+        margin-left: 10px;
+    }
+  }
